@@ -73,25 +73,6 @@ ai_robot_middleware/
 
 ---
 
-## Quick Start
-
-```bash
-# 1. Clone
-git clone https://github.com/YOUR_USERNAME/ai_robot_middleware.git
-cd ai_robot_middleware
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run unit tests
-python -m pytest tests/test_robot_model.py tests/test_event_bus.py -v
-
-# 4. Run the end-to-end integration demo
-python tests/test_integration.py
-```
-
----
-
 ## Writing a New Adapter
 
 Subclass `RobotAdapterBase` and implement two methods:
